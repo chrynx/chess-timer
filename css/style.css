@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+.playerOne, .playerTwo {
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 200px;
+}
+.playerOne {
+  background-color: maroon;
+  color: white;
+  border: 2px solid red;
+}
+.playerTwo {
+  background-color: green;
+  border: 2px solid blue;
+}
+
+.timer {
+  display: flex;
+  justify-content: space-around;
+  border: 2px solid white;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.milliseconds {
+  font-size: 100%;
+}
