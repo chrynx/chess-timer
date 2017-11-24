@@ -5,24 +5,41 @@
 img {
   max-width: 100%;
 }
-.playerOne, .playerTwo {
-  height: 50vh;
+.playerOne, .playerTwo, .middle {
+  height: 47.5vh;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 200px;
 }
-.playerOne {
+.middle {
+  height: 5vh;
+  width: 100%;
+  font-size: 100%;
+  justify-content: space-around;
+}
+.playerOnePlus, .playerOneMinus, .playerTwoPlus, .playerTwoMinus, .resetButton {
+  border: 2px solid black;
+  width: 20%;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.playerOne, .playerOnePlus, .playerOneMinus{
   background-color: maroon;
   color: white;
   border: 2px solid red;
 }
-.playerTwo {
+.playerTwo, .playerTwoPlus,.playerTwoMinus{
   background-color: green;
   border: 2px solid blue;
 }
-
+.resetButton {
+  background-color: black;
+  color: white;
+}
 .timer {
   display: flex;
   justify-content: space-around;
